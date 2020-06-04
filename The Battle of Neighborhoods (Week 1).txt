@@ -1,0 +1,12 @@
+Introduction/Business Problem: 
+Jakarta is the largest city and capital of Indonesia. Jakarta lies on the northwest coast of Java at the mouth of the Ciliwung (Liwung River), on Jakarta Bay (an embayment of the Java Sea). 
+It is coextensive with the metropolitan district of Greater Jakarta (Jakarta Raya) and nearly coextensive with the daerah khusus ibukota (special capital district) of Jakarta—the latter also including a number of small offshore islands in the Java Sea.
+With a large population and as the largest city in Indonesia, opening a new venue could be a great idea. But, the problem is each borough and neighborhood has its own culture and uniqueness. And the question is what is best venue to open in Jakarta? 
+This answer could help anyone who wants to open a new venue in Jakarta.
+
+
+Data:
+To answer the question "what is best venue to open in Jakarta?", I use data from wikipedia that contains every borough and neighborhood in Jakarta, Indonesia. And then from that neighborhood data, I will find corresponding latitude and longitude using geopy. 
+Next, I will use foursquare API to find near venues for every neighborhood and make clustering based on that. And from that, we will know what is the most popular venue. This can answer what is best venue to open in Jakarta.
+
+  
